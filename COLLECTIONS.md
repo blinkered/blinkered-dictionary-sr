@@ -13,13 +13,19 @@ collection rather than reuse its record only has to put the file back where the 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
 | `wiki:sr` | 320,399,920 | Serbian Wikipedia; modern encyclopedic prose | [srwiki.xml.bz2](https://dumps.wikimedia.org/srwiki/latest/srwiki-latest-pages-articles.xml.bz2) |
+| `ia` | 22,225,361 | Internet Archive Serbian books; literature, and the register a newspaper never reaches | [archive-sr](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Serbian%22+OR+language%3Asrp+OR+language%3Ascc%29) |
 | `wikisource:sr` | 15,971,408 | Serbian Wikisource; same Wikimedia family, so it corroborates rather than counts | [srwikisource.xml.bz2](https://dumps.wikimedia.org/srwikisource/latest/srwikisource-latest-pages-articles.xml.bz2) |
-| `ia` | 4,600,864 | Internet Archive Serbian books; literature, and the register a newspaper never reaches | [archive-sr](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Serbian%22+OR+language%3Asrp+OR+language%3Ascc%29) |
 | `lz:srp-rs_web_2016_1M` | 2,312,726 | Leipzig srp-rs_web_2016_1M; news and web, cited by the page each sentence came from | [srp-rs_web_2016_1M](https://downloads.wortschatz-leipzig.de/corpora/srp-rs_web_2016_1M.tar.gz) |
+| `web:standard.rs` | 640,382 |  | fetched from `standard.rs`, recorded in `searched.tsv` |
 | `ebible:srponspc` | 426,374 | Biblica New Serbian Translation, 2017, in Cyrillic; the same eBible family as the 1868 | [srponspc_vpl.txt](https://ebible.org/Scriptures/srponspc_vpl.zip) |
 | `ebible:srp1868` | 409,158 | The Daničić-Karadžić Bible of 1868, in Cyrillic; a family nothing else here belongs to | [srp1868_vpl.txt](https://ebible.org/Scriptures/srp1868_vpl.zip) |
+| `web:politika.rs` | 389,649 |  | fetched from `politika.rs`, recorded in `searched.tsv` |
+| `web:nspm.rs` | 250,626 |  | fetched from `nspm.rs`, recorded in `searched.tsv` |
 | `lz:srp-me_web_2016_300K` | 231,149 | Leipzig srp-me_web_2016_300K; news and web, cited by the page each sentence came from | [srp-me_web_2016_300K](https://downloads.wortschatz-leipzig.de/corpora/srp-me_web_2016_300K.tar.gz) |
+| `web:pravda.rs` | 207,102 |  | fetched from `pravda.rs`, recorded in `searched.tsv` |
 | `tat` | 204,816 | Tatoeba Serbian; contemporary and conversational | [srp_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/srp/srp_sentences.tsv.bz2) |
+| `web:rastko.rs` | 88,250 |  | fetched from `rastko.rs`, recorded in `searched.tsv` |
+| `web:rtrs.tv` | 73,461 |  | fetched from `rtrs.tv`, recorded in `searched.tsv` |
 | `gut` | 50,386 | Project Gutenberg Serbian, 3 texts | [gutenberg-sr](https://www.gutenberg.org/cache/epub/feeds/pg_catalog.csv) |
 
 Totals are playable tokens after folding, not bytes. A collection missing from this table was

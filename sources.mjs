@@ -151,12 +151,13 @@ export const SOURCES = ALL.filter((source) => {
  * attests nothing here, so a Latin-script publisher would cost a harvest its time and give
  * nothing back. Project Rastko, a library of Serbian literature and scholarship, goes first for
  * the register the news never reaches. Domains under `.org.rs`, `.co.rs` and `.gov.rs` are left
- * out because the family rule would name them after the suffix rather than the publisher.
+ * out because the family rule would name them after the suffix rather than the publisher. RTS,
+ * RTV and the Serbian Orthodox Church (`spc.rs`) write in Cyrillic too, but offer no sitemap or
+ * feed the harvest can find, so they gave no pages and are not listed.
  */
 export const DOMAINS = [
   'rastko.rs',
-  'rts.rs', 'politika.rs', 'rtv.rs', 'rtrs.tv', 'standard.rs',
-  'nspm.rs', 'pravda.rs', 'spc.rs',
+  'politika.rs', 'rtrs.tv', 'standard.rs', 'nspm.rs', 'pravda.rs',
 ]
 
 export const HARVEST = existsSync(new URL('searched.tsv', import.meta.url).pathname)

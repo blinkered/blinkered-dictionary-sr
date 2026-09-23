@@ -8,9 +8,9 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 109,513. Shipped: 68,471.
+Candidates: 109,513. Shipped: 82,665.
 
-Of 6 families, **5 can be checked by fetching** —
+Of 12 families, **11 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
 somebody else made, whose locators record where they found the sentence; the document that holds
 it is their published corpus, not the web.
@@ -19,9 +19,15 @@ it is their published corpus, not the web.
 | --- | --- | --- | --- | --- |
 | 1 | `wikimedia` | 0 | 0.0% | — |
 | 2 | `internetarchive` | 0 | 0.0% | — |
-| 3 | `leipzig` | 62,079 | 56.7% | +62,079 |
-| 4 | `ebible` | 66,568 | 60.8% | +4,489 |
-| 5 | `tatoeba` | 67,962 | 62.1% | +1,394 |
-| 6 | `gutenberg` | 68,471 | 62.5% | +509 |
+| 3 | `leipzig` | 72,256 | 66.0% | +72,256 |
+| 4 | `ebible` | 76,122 | 69.5% | +3,866 |
+| 5 | `standard.rs` | 79,486 | 72.6% | +3,364 |
+| 6 | `tatoeba` | 80,379 | 73.4% | +893 |
+| 7 | `nspm.rs` | 81,090 | 74.0% | +711 |
+| 8 | `rastko.rs` | 81,526 | 74.4% | +436 |
+| 9 | `politika.rs` | 81,941 | 74.8% | +415 |
+| 10 | `gutenberg` | 82,299 | 75.1% | +358 |
+| 11 | `pravda.rs` | 82,579 | 75.4% | +280 |
+| 12 | `rtrs.tv` | 82,665 | 75.5% | +86 |
 
-**Diminishing returns from family 5** (`tatoeba`, +1,394), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 5** (`standard.rs`, +3,364), where a family first added less than a twentieth of what the best one did.

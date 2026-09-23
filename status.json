@@ -2,14 +2,14 @@
   "language": "sr",
   "built": "2026-09-23",
   "candidates": 109513,
-  "shipped": 68471,
+  "shipped": 82665,
   "ships": "pending",
   "decided": null,
   "why": null,
   "license": null,
   "conforms": true,
-  "families": 6,
-  "checkable": 5,
+  "families": 12,
+  "checkable": 11,
   "knee": 5,
   "steps": [
     {
@@ -29,30 +29,72 @@
     {
       "families": 3,
       "added": "leipzig",
-      "kept": 62079,
-      "share": 0.566864,
-      "gained": 62079
+      "kept": 72256,
+      "share": 0.659794,
+      "gained": 72256
     },
     {
       "families": 4,
       "added": "ebible",
-      "kept": 66568,
-      "share": 0.607855,
-      "gained": 4489
+      "kept": 76122,
+      "share": 0.695096,
+      "gained": 3866
     },
     {
       "families": 5,
-      "added": "tatoeba",
-      "kept": 67962,
-      "share": 0.620584,
-      "gained": 1394
+      "added": "standard.rs",
+      "kept": 79486,
+      "share": 0.725813,
+      "gained": 3364
     },
     {
       "families": 6,
+      "added": "tatoeba",
+      "kept": 80379,
+      "share": 0.733968,
+      "gained": 893
+    },
+    {
+      "families": 7,
+      "added": "nspm.rs",
+      "kept": 81090,
+      "share": 0.74046,
+      "gained": 711
+    },
+    {
+      "families": 8,
+      "added": "rastko.rs",
+      "kept": 81526,
+      "share": 0.744441,
+      "gained": 436
+    },
+    {
+      "families": 9,
+      "added": "politika.rs",
+      "kept": 81941,
+      "share": 0.748231,
+      "gained": 415
+    },
+    {
+      "families": 10,
       "added": "gutenberg",
-      "kept": 68471,
-      "share": 0.625232,
-      "gained": 509
+      "kept": 82299,
+      "share": 0.7515,
+      "gained": 358
+    },
+    {
+      "families": 11,
+      "added": "pravda.rs",
+      "kept": 82579,
+      "share": 0.754057,
+      "gained": 280
+    },
+    {
+      "families": 12,
+      "added": "rtrs.tv",
+      "kept": 82665,
+      "share": 0.754842,
+      "gained": 86
     }
   ]
 }
